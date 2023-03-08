@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ .texto-cima  section  h1 {
+  margin: 250px 80px 80px 230px;
+  width: 50% ;
+}
+
+.texto-cima h3 {
+  margin-left: 230px;
+  width: 50%;
+}
+
+.nav h1 {
+  text-align: center;
+  margin-top: 250px ;
+}
+
+.texto-cima section img {
+  width: 1000px;
+  height: 900px;
+  position: fixed;
+  left: 1000px;
+  top: 5px;
+  ali
+}
