@@ -4,10 +4,9 @@
   box-sizing: border-box;
 }
 
-
- .texto-cima  section  h1 {
+.texto-cima section h1 {
   margin: 250px 80px 80px 230px;
-  width: 50% ;
+  width: 50%;
 }
 
 .texto-cima h3 {
@@ -17,7 +16,7 @@
 
 .nav h1 {
   text-align: center;
-  margin-top: 250px ;
+  margin-top: 250px;
   margin: 50px;
 }
 
@@ -30,19 +29,69 @@
 }
 
 .container {
-  margin-top: ;
-  min-height: 100vh;
+  margin-top: 5px;
+  min-height: 70vh;
   display: flex;
   column-gap: 50px;
   justify-content: center;
 }
 
-.item{
+.item {
   width: 500px;
   height: 500px;
   border-radius: 30px;
   background-color: rgb(177, 177, 177);
   font-size: 23px;
   text-align: center;
-  
+}
+
+.container-principal {
+  min-height: 70vh;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 10px 15px;
+  grid-template-rows: 2fr 2fr;
+}
+
+.container-secundario {
+  min-height: 70vh;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 10px 15px;
+  grid-template-rows: 2fr 2fr;
+}
+
+.meio1 {
+  border: 2px solid black;
+  font-size: 30px;
+  background-color: rgb(177, 177, 177);
+  padding: 5px;
+}
+
+.meio2 {
+  margin-top: 100px;
+  border: 2px solid black;
+  font-size: 30px;
+  background-color: rgb(177, 177, 177);
+  padding: 5px;
+}
+
+.container-mini-cards {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 10px 15px;
+  grid-template-rows: 2fr 2fr;
+}
+
+.mini-cards {
+  margin-top: 20px;
+  border: 2px solid black;
+  font-size: 30px;
+  background-color: rgb(177, 177, 177);
+  padding: 5px;
+}
+
+.flooter > ul > li{
+  display: inline-block;
 }
