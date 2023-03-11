@@ -29,6 +29,11 @@
   width: 50%;
 }
 
+.item p {
+  text-align: center;
+  display: flex;
+}
+
 .nav h1 {
   text-align: center;
   margin-top: 300px;
@@ -51,6 +56,7 @@
   justify-content: center;
 }
 
+
 .item {
   width: 500px;
   height: 500px;
@@ -60,6 +66,7 @@
   text-align: center;
   display: flex;
 }
+
 
 .container-principal {
   min-height: 70vh;
@@ -180,16 +187,16 @@
 }
 
 /* Scrollbar configuração */
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 15px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: #72716e;
   border-radius: 30px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: #2f4c72;
   border-radius: 30px;
 }
