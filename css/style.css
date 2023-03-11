@@ -178,3 +178,18 @@
   font-size: 1rem;
   font-weight: 300;
 }
+
+/* Scrollbar configuração */
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #72716e;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #2f4c72;
+  border-radius: 30px;
+}
