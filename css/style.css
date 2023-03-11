@@ -4,17 +4,15 @@
   box-sizing: border-box;
 }
 
-
-.img-header{
+.img-header {
   margin-top: 30px;
   margin-left: 30px;
   width: 100px;
   height: 100px;
   display: flex;
-
 }
 
-.logo-direita{
+.logo-direita {
   margin-top: 30px;
   width: 50%;
   height: 50%;
@@ -60,6 +58,7 @@
   background-color: rgb(177, 177, 177);
   font-size: 23px;
   text-align: center;
+  display: flex;
 }
 
 .container-principal {
@@ -109,7 +108,7 @@
   padding: 5px;
 }
 
-.flooter > ul > li{
+.flooter > ul > li {
   display: inline-block;
 }
 
@@ -118,5 +117,64 @@
   height: 40px;
   text-align: center;
   position: relative;
-  
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3e4248;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 2;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
 }
