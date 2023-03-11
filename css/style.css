@@ -4,7 +4,24 @@
   box-sizing: border-box;
 }
 
-.texto-cima section h1 {
+
+.img-header{
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+
+}
+
+.logo-direita{
+  margin-top: 30px;
+  width: 50%;
+  height: 50%;
+  margin-left: 50%;
+  display: flex;
+}
+.texto-cima h1 {
   margin: 250px 80px 80px 230px;
   width: 50%;
 }
@@ -16,7 +33,7 @@
 
 .nav h1 {
   text-align: center;
-  margin-top: 250px;
+  margin-top: 300px;
   margin: 50px;
 }
 
@@ -94,4 +111,12 @@
 
 .flooter > ul > li{
   display: inline-block;
+}
+
+.icons img {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  position: relative;
+  
 }
