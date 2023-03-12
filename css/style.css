@@ -4,6 +4,25 @@
   box-sizing: border-box;
 }
 
+header{
+  background-color: #663dff;
+  min-height: 150px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+header > h1 {
+ color: white;
+ font-size: "Poppins", sans-serif;
+ margin-bottom: 20px;
+}
+
+header > p {
+ color: white;
+ font-size: "Poppins", sans-serif;
+ font-size: 1.2em;
+}
+
 body{
   font-family: "Poppins", sans-serif;
   background-color: #f4f4f4;
@@ -59,7 +78,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 200px;
   margin-left: 50px;
 }
 
@@ -172,3 +191,38 @@ footer .boxs:nth-child(4){
 
 /* retirar o scrollbar horizontal */
 body { overflow-x: hidden; }
+
+/* Button */
+.button{
+  background: #b621fe;
+  border: none;
+  z-index: 1
+}
+
+.button ::after{
+    position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #663dff;
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+
+.button:hover{
+  color: fff;
+}
+.button:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.button:active {
+  top: 2px;
+}
